@@ -21,3 +21,20 @@ body {
   /*? Hizalama left,right,center, justify*/
   text-align: justify;
 }
+
+/** Descendant Selector */
+/*! p elementinin icerisindeki span'lerin rengini red yap */
+/* p span {
+  color: red;
+} */
+#my-body .text-style span {
+  color: red;
+}
+.decoration {
+  color: green;
+
+  text-decoration: overline; /*? ust cizgi*/
+  text-decoration: underline; /*? alt cizgi*/
+  text-decoration: line-through; /*? üzerini ciz*/
+  text-decoration: none; /*? default*/
+}
